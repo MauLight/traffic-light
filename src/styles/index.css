@@ -10,3 +10,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.full-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
+    margin-top: 0%;
+    
+}
+
+.head {
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
+}
+.handler {
+    background-color: black;
+    padding: 5px;
+    height: 100px;
+    display: block;
+    margin-left: 14px;
+
+}
+
+.t-light {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: aqua;
+    margin-top: 2px;
+}
+
+.green {background-color: yellowgreen;}
+.yellow {background-color: yellow;}
+.red {background-color: red;}
+
+.glow {
+    box-shadow: 0px 0px 12px 6px #535FED;
+    animation: glow 1.5s linear infinite alternate;
+}
+
+.back-body {
+    margin-bottom: -700px;
+}
+
